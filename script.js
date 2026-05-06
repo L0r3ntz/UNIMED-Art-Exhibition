@@ -146,9 +146,6 @@ function renderArtworks(artworks) {
                     <span><i class="fas fa-palette"></i> ${artwork.medium}</span>
                 </div>
                 <div class="card-tags">${tags}</div>
-                <div class="card-actions">
-                    ${artwork.image_url ? `<button class="preview-btn" onclick="event.stopPropagation(); window.open('${artwork.image_url}', '_blank')"><i class="fas fa-expand"></i> Preview Full</button>` : ''}
-                </div>
             </div>
         `;
         
