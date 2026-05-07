@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pameran Lukisan - TheKatalog</title>
+    <title>Pameran Lukisan — TheKatalog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -13,9 +13,19 @@
 <body>
     <!-- Preloader -->
     <div id="preloader">
-        <div class="preloader-content">
+        <div class="preloader-inner">
+            <div class="preloader-quote">
+                <i class="fas fa-quote-right quote-icon"></i>
+                <p class="preloader-text">Catatan Calon Penjaga Nyala<br><br>
+                Karya ini lahir di sela tugas pedagogi, bukan studio profesional. Kami tidak mengejar kesempurnaan teknik, melainkan merekam pencarian tulus tentang Nusantara melalui ingatan dan kriya sederhana.<br><br>
+                Jangan bertanya seberapa mahir karya ini, tapi rasakan apa yang ingin dibagikan hatinya. Di balik ketidakteraturan garis ini, ada denyut jujur calon guru yang sedang belajar menyulut api ilmu. Sebab mengajar, seperti seni, adalah keberanian memberi meski tak sempurna.<br><br>
+                Selamat menjelajah.</p>
+                <i class="fas fa-quote-left quote-icon" style="bottom: -10px; top: auto;"></i>
+            </div>
+            <button class="preloader-btn" onclick="document.getElementById('preloader').classList.add('fade-out'); setTimeout(() => document.getElementById('preloader').style.display='none', 800);">
+                Masuk ke Galeri <i class="fas fa-arrow-right"></i>
+            </button>
             <div class="preloader-line"></div>
-            <p>Loading Exhibition</p>
         </div>
     </div>
 
@@ -23,7 +33,6 @@
     <nav id="navbar">
         <div class="nav-container">
             <div class="logo">
-                <!-- <span class="logo-icon">◬</span> -->
                 <span class="logo-text">Katalog Pameran</span>
             </div>
             <div class="nav-links">
@@ -35,22 +44,17 @@
 
     <!-- Hero Section -->
     <header class="hero">
-        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <p class="hero-subtitle">Manajemen Pameran UNIMED Angkatan<br>2023 ke ISI Padang Panjang</p>
+            <p class="hero-subtitle">Manajemen Pameran UNIMED Angkatan 2023 ke ISI Padang Panjang</p>
             <h1 class="hero-title">Pameran Lukisan</h1>
-            <p class="hero-description">Dari Tangan yang Berkarya,<br>Lahir Rasa Nusantara yang Bercerita</p>
+            <p class="hero-description">Dari Tangan yang Berkarya, Lahir Rasa Nusantara yang Bercerita</p>
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <span class="stat-number" id="heroTotal">40</span>
+                    <span class="stat-number" id="heroTotal">41</span>
                     <span class="stat-label">Artworks</span>
                 </div>
-                <!-- <div class="hero-stat">
-                    <span class="stat-number">3</span>
-                    <span class="stat-label">Galleries</span>
-                </div> -->
                 <div class="hero-stat">
-                    <span class="stat-number" id="heroArtists">20</span>
+                    <span class="stat-number" id="heroArtists">41</span>
                     <span class="stat-label">Artists</span>
                 </div>
             </div>
@@ -68,20 +72,17 @@
                 <h2>Exhibition Gallery</h2>
                 <p>Browse through our curated collection</p>
             </div>
-            
             <div class="controls">
                 <div class="search-wrapper">
                     <i class="fas fa-search"></i>
                     <input type="text" id="searchInput" placeholder="Search artworks, artists, tags...">
                 </div>
-                <div class="filters">
-                    <select id="mediumFilter" class="filter-select">
-                        <option value="">All Media</option>
-                        <option value="cat minyak">Oil Paint</option>
-                        <option value="akrilik">Acrylic</option>
-                        <option value="pastel">Pastel</option>
-                    </select>
-                </div>
+                <select id="mediumFilter" class="filter-select">
+                    <option value="">All Media</option>
+                    <option value="cat minyak">Cat Minyak</option>
+                    <option value="akrilik">Akrilik</option>
+                    <option value="pastel">Pastel</option>
+                </select>
             </div>
         </div>
     </section>
@@ -89,9 +90,7 @@
     <!-- Gallery Grid -->
     <section class="gallery-section">
         <div class="container">
-            <div id="artworkGrid" class="gallery-grid">
-                <!-- Artwork cards will be inserted here -->
-            </div>
+            <div id="artworkGrid" class="gallery-grid"></div>
             <div id="emptyState" class="empty-state" style="display: none;">
                 <i class="fas fa-search"></i>
                 <h3>No artworks found</h3>
@@ -106,9 +105,7 @@
             <button class="modal-close" aria-label="Close modal">
                 <i class="fas fa-times"></i>
             </button>
-            <div id="modalBody" class="modal-body">
-                <!-- Modal content -->
-            </div>
+            <div id="modalBody" class="modal-body"></div>
         </div>
     </div>
 
@@ -124,12 +121,12 @@
                 <div class="about-stats">
                     <div class="about-stat-card">
                         <i class="fas fa-palette"></i>
-                        <h3 id="aboutTotal">40</h3>
+                        <h3 id="aboutTotal">41</h3>
                         <p>Total Artworks</p>
                     </div>
                     <div class="about-stat-card">
                         <i class="fas fa-users"></i>
-                        <h3 id="aboutArtists">20</h3>
+                        <h3 id="aboutArtists">41</h3>
                         <p>Featured Artists</p>
                     </div>
                 </div>
@@ -141,10 +138,7 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <span class="logo-icon">◬</span>
-                    <span>THE KATALOG</span>
-                </div>
+                <span class="logo-text">THE KATALOG</span>
                 <p>&copy; 2024 Pameran Lukisan. All rights reserved.</p>
                 <p class="footer-note">This is a non-commercial digital exhibition catalog.</p>
             </div>
