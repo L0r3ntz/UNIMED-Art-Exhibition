@@ -6,8 +6,8 @@ Website statis yang menampilkan katalog digital pameran lukisan menggunakan data
 
 - ✨ Galeri karya seni dengan tampilan grid yang modern
 - 🔍 Pencarian karya berdasarkan ID, judul, seniman, atau tag
-- 🏷️ Filter berdasarkan ruangan (Ruang A/B/C) dan media (cat minyak/akrilik/pastel)
-- 📊 Statistik pameran (total karya, seniman, ruangan)
+- 🏷️ Filter berdasarkan media (cat minyak/akrilik/pastel)
+- 📊 Statistik pameran (total karya, seniman)
 - 🖼️ Tampilan detail karya dalam modal
 - 📱 Responsif (mobile-friendly)
 - 🔄 Fallback ke data lokal jika API tidak tersedia

@@ -582,6 +582,13 @@ body {
     flex-shrink: 0;
 }
 
+/* MODAL ARTIST */
+.modal-artist {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 .card-meta {
     display: flex;
     gap: 1rem;
