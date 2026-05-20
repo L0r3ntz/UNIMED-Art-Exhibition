@@ -523,7 +523,7 @@ function renderArtworks(artworks) {
             : `<div class="card-image-placeholder">${art.title.charAt(0)}</div>`;
         
         const artistPhotoHtml = art.artist_photo_url
-            ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="artist-photo-small" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
+            ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="artist-photo-small" onclick="event.stopPropagation(); showArtistPhoto('${art.artist_photo_url}', '${art.artist.replace(/'/g, "\\'")}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
             : '';
         const artistPlaceholderHtml = `<div class="artist-photo-placeholder-small" style="display: ${art.artist_photo_url ? 'none' : 'flex'}">${art.artist.charAt(0).toUpperCase()}</div>`;
         
@@ -571,7 +571,7 @@ function showModal(art) {
     const imgHtml = art.image_url ? `<img src="${art.image_url}" alt="${art.title}" class="modal-image">` : '';
     
     const artistPhotoHtml = art.artist_photo_url
-        ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="modal-artist-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
+        ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="modal-artist-photo" onclick="event.stopPropagation(); showArtistPhoto('${art.artist_photo_url}', '${art.artist.replace(/'/g, "\\'")}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
         : '';
     const artistPlaceholderHtml = `<div class="modal-artist-photo-placeholder" style="display: ${art.artist_photo_url ? 'none' : 'flex'}">${art.artist.charAt(0).toUpperCase()}</div>`;
     
@@ -602,9 +602,44 @@ function closeModal() {
     document.body.style.overflow = '';
 }
 
-document.querySelector('.modal-close').onclick = closeModal;
-window.onclick = e => { if (e.target === document.getElementById('artworkModal')) closeModal(); };
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+function showArtistPhoto(url, name) {
+    const modal = document.getElementById('artistPhotoModal');
+    document.getElementById('artistPhotoFull').src = url;
+    document.getElementById('artistPhotoName').textContent = name;
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeArtistPhoto() {
+    document.getElementById('artistPhotoModal').classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+document.querySelectorAll('.modal-close').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const modal = btn.closest('.modal');
+        if (modal && modal.id === 'artistPhotoModal') {
+            closeArtistPhoto();
+        } else {
+            closeModal();
+        }
+    });
+});
+
+document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+        if (document.getElementById('artistPhotoModal').classList.contains('active')) {
+            closeArtistPhoto();
+        } else {
+            closeModal();
+        }
+    }
+});
+
+window.onclick = e => {
+    if (e.target === document.getElementById('artworkModal')) closeModal();
+    if (e.target === document.getElementById('artistPhotoModal')) closeArtistPhoto();
+};
 
 document.getElementById('searchInput').addEventListener('input', filterArtworks);
 document.getElementById('mediumFilter').addEventListener('change', filterArtworks);
