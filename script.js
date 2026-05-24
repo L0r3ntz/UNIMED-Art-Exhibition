@@ -167,6 +167,17 @@ window.onclick = e => {
     if (e.target === document.getElementById('artistPhotoModal')) closeArtistPhoto();
 };
 
+function populateMediumFilter() {
+    const mediums = [...new Set(allArtworks.map(a => a.medium).filter(Boolean))].sort();
+    const select = document.getElementById('mediumFilter');
+    mediums.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m;
+        select.appendChild(opt);
+    });
+}
+
 document.getElementById('searchInput').addEventListener('input', filterArtworks);
 document.getElementById('mediumFilter').addEventListener('change', filterArtworks);
 
@@ -194,6 +205,7 @@ setTimeout(() => {
 // Initialize
 (async () => {
     await fetchArtworks();
+    populateMediumFilter();
     renderArtworks(allArtworks);
     updateStats();
 })();
