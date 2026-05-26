@@ -77,7 +77,7 @@ function filterArtworks() {
     const q = document.getElementById('searchInput').value.toLowerCase();
     const m = document.getElementById('mediumFilter').value;
     const filtered = allArtworks.filter(a =>
-        (!q || a.id.toLowerCase().includes(q) || a.title.toLowerCase().includes(q) || a.artist.toLowerCase().includes(q) || (a.tags && a.tags.toLowerCase().includes(q))) &&
+        (!q || (a.id || '').toLowerCase().includes(q) || (a.title || '').toLowerCase().includes(q) || (a.artist || '').toLowerCase().includes(q) || (a.tags || '').toLowerCase().includes(q)) &&
         (!m || a.medium === m)
     );
     renderArtworks(filtered);
