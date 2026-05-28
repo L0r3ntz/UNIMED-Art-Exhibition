@@ -53,7 +53,7 @@ function renderArtworks(artworks) {
             : '';
         const artistPlaceholderHtml = `<div class="artist-photo-placeholder-small" style="display: ${art.artist_photo_url ? 'none' : 'flex'}">${art.artist.charAt(0).toUpperCase()}</div>`;
         
-        const tags = art.tags ? art.tags.split(',').map(t => `<span class="tag">${t.trim()}</span>`).join('') : '';
+        const tags = art.tags ? art.tags.split(',').map(t => `<span class="tag"><i class="fab fa-instagram"></i> ${t.trim()}</span>`).join('') : '';
         card.innerHTML = `
             <div class="card-image">${imgHtml}</div>
             <div class="card-content">
@@ -101,7 +101,7 @@ function showModal(art) {
         : '';
     const artistPlaceholderHtml = `<div class="modal-artist-photo-placeholder" style="display: ${art.artist_photo_url ? 'none' : 'flex'}">${art.artist.charAt(0).toUpperCase()}</div>`;
     
-    const tags = art.tags ? art.tags.split(',').map(t => `<span class="tag">${t.trim()}</span>`).join(' ') : '';
+    const tags = art.tags ? art.tags.split(',').map(t => `<span class="tag"><i class="fab fa-instagram"></i> ${t.trim()}</span>`).join(' ') : '';
     body.innerHTML = `
         ${imgHtml}
         <div class="modal-details">
