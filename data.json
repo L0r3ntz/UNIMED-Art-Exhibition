@@ -7,7 +7,7 @@
     "medium": "Akrilik",
     "dimensions": "100 x 70 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Arief Sholeiman.JPG",
-    "tags": "@ arief.s_artworks",
+    "tags": "arief.s_artworks",
     "description": "Keris dalam lukisan melambangkan kewibawaan, kesucian, dan keseimbangan kosmis, perpaduan antara kekuatan spiritual dan martabat budaya Jawa.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-001.jpg"
   },
@@ -55,7 +55,7 @@
     "medium": "Cat minyak di atas panel kayu berlapis gesso dengan engsel logam Triptika",
     "dimensions": "100 x 200 cm (open), 100 x 100 cm (closed)",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Daffa Utama Saragih.JPG",
-    "tags": "",
+    "tags": "daffasaragih_",
     "description": "Karya ini mendekonstruksi kemiskinan struktural yang dipelihara oleh elit (Orang Gadang). Garis kuning geometris serupa tenda sirkus melambangkan pandangan penguasa yang kaku, sombong, dan \"tak menapak tanah\"-memandang realitas dari ketinggian otoritas semu. Figur sentral hadir sebagai dalang yang memanipulasi entitas di bawahnya. Dua kerbau yang diadu menjadi metafora rakyat kecil yang dipaksa berkonfrontasi dalam ring sandiwara demi kesenangan politik. Menggunakan ikonografi Minang, lukisan ini menggugat bagaimana tradisi dan nasib rakyat sering kali hanya dijadikan komoditas dalam sirkus kekuasaan.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-005.jpg"
   },
@@ -307,7 +307,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "40 x 60 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Dita Audina.JPG",
-    "tags": "@ ditaa_audina @ ddxnjic_dita",
+    "tags": "ditaa_audina, ddxnjic_dita",
     "description": "Karya ini menggambarkan tari piring dari Sumatera Barat sebagai simbol suara rakyat dan aspirasi yang dibungkam. Sosok penari yang matanya tertutup kain melambangkan masyarakat yang tidak diberi ruang untuk melihat kebenaran dan menyampaikan pendapat. Kain panjang yang melilit tubuh bertuliskan \"dengar\", \"suara\", \"aspirasi\", dan \"tidak didengar\" menjadi simbol jeritan rakyat yang terus berusaha disampaikan, namun tetap diabaikan.\n\nPecahan piring di lantai menggambarkan harapan dan kepercayaan yang hancur akibat aspirasi yang tidak diterima. Siluet hitam di belakang penari memperlihatkan rasa takut, tekanan, dan penderitaan yang tersembunyi di balik diamnya masyarakat. Gerakan tari yang biasanya indah dan penuh makna budaya diubah menjadi bentuk perlawanan dan kesedihan.\n\nMelalui karya ini, ingin menyampaikan pesan bahwa setiap suara berhak untuk didengar. Tradisi tari piring tidak hanya menjadi identitas budaya Minangkabau, tetapi juga media untuk menyuarakan kritik sosial tentang kebebasan berpendapat dan pentingnya mendengarkan aspirasi masyarakat.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-026.jpg"
   },
@@ -343,7 +343,7 @@
     "medium": "",
     "dimensions": "A2",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Waatsiq Baljashar.jpg",
-    "tags": "@wawabljsshar_",
+    "tags": "wawabljsshar_",
     "description": "Laras Sayap Dewata menggambarkan sosok perempuan Bali dengan sentuhan fantasi berupa sayap fairy bermotif batik sebagai simbol keharmonisan antara keindahan, budaya, dan spiritualitas. Kata laras dimaknai sebagai keselarasan atau harmoni, sedangkan dewata merujuk pada hal-hal yang bersifat suci atau berkaitan dengan para dewa. Sosok perempuan divisualisasikan dengan ekspresi lembut dan gerakan tubuh yang anggun untuk menunjukkan kelembutan sekaligus kekuatan batin perempuan Bali. Penggunaan warna hangat seperti merah, emas, hijau, dan jingga memperkuat kesan sakral dan magis dalam karya. Kehadiran aksara Bali pada bagian samping karya menjadi unsur penting yang mempertegas identitas budaya serta makna spiritual yang ingin disampaikan. Aksara tersebut berisi makna tentang penghormatan melalui sesajen, tarian sakral, dan pelaksanaan upacara adat di tempat suci. Dipadukan dengan elemen pura, dupa, dan sesajen pada latar, karya ini ingin menunjukkan bahwa perempuan Bali tidak hanya digambarkan sebagai sosok yang indah, tetapi juga memiliki hubungan yang erat dengan nilai budaya dan spiritualitas. Sayap dalam karya ini menjadi simbol kebebasan jiwa dan hubungan harmonis antara manusia dengan nilai-nilai luhur kehidupan.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-029.jpg"
   },
@@ -427,7 +427,7 @@
     "medium": "Canvas",
     "dimensions": "80x100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Tazlila Irfani.JPG",
-    "tags": "@tzllairfniii",
+    "tags": "tzllairfniii",
     "description": "Lukisan ini menggambarkan keagungan sosok perempuan Minangkabau. Karya ini tidak hanya menonjolkan kecantikan wajah, tetapi juga martabat dan kekuatan jiwa seorang wanita sebagai penjaga kehormatan dalam tradisi Minang. Perpaduan warna yang hangat dan detail yang mendalam menjadi simbol bahwa keanggunan serta harga diri wanita Minang adalah warisan berharga yang akan selalu terjaga dari waktu ke waktu.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-036.jpg"
   },
@@ -487,7 +487,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "100 x 200 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Adriana Joy Kristin Simbolon_.jpg",
-    "tags": "@ adrianajoyksbln_",
+    "tags": "adrianajoyksbln_",
     "description": "Karya batik Harmoni Nusantara merupakan visualisasi keberagaman budaya Indonesia yang diwujudkan melalui perpaduan beberapa motif khas daerah Nusantara. Karya ini menggabungkan ornamen Boraspati dan Simataniari dari budaya Batak Toba, motif Mega Mendung khas Cirebon, serta unsur dekoratif bunga lily sebagai simbol keindahan dan kesucian. Penggabungan motif-motif tersebut merepresentasikan nilai persatuan dalam keberagaman budaya yang saling hidup berdampingan. Motif Boraspati dimaknai sebagai simbol perlindungan, kekuatan, dan keseimbangan hidup, sedangkan Simataniari merepresentasikan cahaya, kehidupan, dan harapan. Kehadiran Mega Mendung menggambarkan dinamika kehidupan yang penuh perubahan, namun tetap membawa kesejukan dan ketenangan. Sementara itu, bunga lily menjadi lambang keindahan, pertumbuhan, dan harmoni yang memperkuat unsur estetis karya. Melalui komposisi warna yang berani dan perpaduan ornamen lintas budaya, karya ini menghadirkan dialog visual antara tradisi lokal yang berbeda sebagai bentuk apresiasi terhadap kekayaan identitas Nusantara. Karya ini diharapkan dapat menjadi refleksi bahwa perbedaan budaya bukanlah pemisah, melainkan unsur yang saling melengkapi dalam membentuk harmoni kehidupan.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-041.jpg"
   },
@@ -499,7 +499,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "200 x 100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Devi Patricia Gurning_.jpg",
-    "tags": "@ devp.gurning_",
+    "tags": "devp.gurning_",
     "description": "Karya batik tulis ini terinspirasi dari ornamen budaya Karo, Sumatra Utara, dengan menggabungkan motif Pucuk Merbung dan Pandaimeiken. Motif Pucuk Merbung melambangkan pertumbuhan dan harapan, sedangkan Pandaimeiken menggambarkan keteguhan masyarakat Karo dalam menjaga adat dan budaya mereka. Susunan motif dibuat memanjang sehingga memberi kesan teratur dan menyatu. Isen-isen di sekitar motif utama membuat tampilan kain terlihat lebih hidup dan tidak kosong. Motif Bunga Lawang yang ditempatkan di antara garis-garis menjadi pelengkap yang menambah nilai estetis pada karya. Sementara itu, motif segitiga pada bagian tepi melambangkan kekuatan dan keseimbangan. Penggunaan warna merah, hitam, dan putih dipilih karena memiliki makna tersendiri. Warna merah melambangkan keberanian dan semangat, hitam melambangkan keteguhan, sedangkan putih melambangkan kesucian dan keseimbangan. Melalui karya ini, keindahan motif tradisional Karo dihadirkan kembali dalam bentuk batik tulis sebagai bagian dari kekayaan budaya Nusantara.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-042.jpg"
   },
@@ -511,7 +511,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "200 x 100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Elisabeth Hulu.jpg",
-    "tags": "@ elisabethl__",
+    "tags": "elisabethl__",
     "description": "Karya batik tulis ini mengangkat keindahan ornamen tradisional dari budaya Pulau Nias yang kaya akan simbol dan makna. Komposisi motif yang tersusun secara vertikal menampilkan bentuk-bentuk ornamen khas Nias yang berpadu dengan pola geometris pada bagian tepi kain. Warna merah yang dominan melambangkan keberanian dan semangat, sementara warna kuning keemasan menghadirkan kesan kemuliaan serta kejayaan budaya. Melalui perpaduan bentuk, ritme, dan warna, karya ini berupaya menampilkan harmoni visual sekaligus merepresentasikan nilai tradisi dan identitas masyarakat Nias dalam medium batik tulis.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-043.jpg"
   },
@@ -547,7 +547,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "100 x 200 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Juniska Della Meliasny Saragih.jpg",
-    "tags": "@ Juniska.Della",
+    "tags": "Juniska.Della",
     "description": "Pusaka Bona Pasogit merupakan karya batik tulis yang memadukan teknik Nusantara dengan filosofi budaya Batak. Bermakna warisan sakral dari tanah kelahiran, karya ini menggambarkan kampung halaman sebagai sumber kekuatan identitas yang abadi. Komposisi kain mengharmonisasikan ragam hias etnik dengan unsur alam dengan adanya stilasi Gorga dan ornamen yang hadir sebagai lambang perlindungan, berpadu dengan motif jalinan tali di bagian tengah sebagai simbol kemakmuran. Ketegasan ornamen budaya ini diseimbangkan secara apik oleh kelembutan motif bunga kuning yang menjalar bebas, merepresentasikan keindahan hidup yang terus bertumbuh.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-046.jpg"
   },
@@ -559,7 +559,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "100 x 200 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Nur Jannah Harahap.jpg",
-    "tags": "@ jannahrp_",
+    "tags": "jannahrp_",
     "description": "Karya seni kain ini merupakan sebuah batik tulis kontemporer yang memadukan keanggunan motif tradisional Indonesia dengan penataan komposisi geometris yang tegas dan dinamis. Menggunakan palet warna klasik yang berani—merah (sogan/gula kelapa), hitam, dan aksen garis putih hasil rintangan malam—karya ini memancarkan kesan magis, sakral, sekaligus modern. Komposisi dan Struktur Motif Kain batik ini dibagi ke dalam pola simetris vertikal yang sangat teratur menggunakan struktur belah ketupat (diamond pattern) sebagai bingkai utamanya. Di dalam struktur tersebut, terdapat beberapa elemen motif utama yang kaya akan makna: Motif Geometris Belah Ketupat: Berfungsi sebagai struktur utama yang memberikan kesan kokoh, seimbang, dan menuntun pandangan mata dari atas ke bawah secara berkesinambungan. Motif Flora (Bunga Delapan Penjuru): Pada bagian sudut dan tepi kain, terdapat lingkaran-lingkaran besar berisi motif bunga merah dengan delapan kelopak. Motif ini menyerupai pola Mandala atau Bunga Matahari, yang dalam banyak budaya Nusantara melambangkan keseimbangan alam, arah mata angin, dan sumber kehidupan. Motif Fauna (Simbiosis Cicak/Reptil dan Simbol Bundar): Di pusat setiap belah ketupat, terdapat visualisasi figuratif menyerupai cicak atau kadal yang dikelilingi oleh lingkaran-lingkaran merah kecil. Dalam kosmologi masyarakat adat (seperti Batak atau Dayak), figur reptil sering kali menjadi simbol kebijaksanaan, pelindung, dan daya tahan hidup. Isen-isen dan Ornamen Sulur: Ruang kosong di antara motif utama diisi dengan guratan malam yang membentuk sulur-sulur melengkung yang rumit, memberikan kontras yang dinamis terhadap garis-garis pembatas yang kaku.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-047.jpg"
   },
@@ -571,7 +571,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "200 x 100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Stephany Wulandary Sihombing.jpg",
-    "tags": "@ stphnyshb__",
+    "tags": "stphnyshb__",
     "description": "Karya ini merupakan eksperimen visual yang menjembatani kesenjangan antara dua budaya penting Indonesia: Batak Toba dan Jawa. Bentuk dasar ornamen Iran-Iran, yang melambangkan kemurnian, keteraturan, dan kebersihan dalam tradisi ukiran Batak Gorga, diubah menjadi struktur komposisi diagonal khas batik Parang/Lereng. Penggunaan warna-warna berani dan kontras merah, putih, dan hitam dipadukan dengan ritme dinamis diagonal Jawa, menciptakan harmoni baru. Karya ini menekankan fleksibilitas motif tradisional dari kepulauan Indonesia dan kemampuannya untuk berkembang melampaui media aslinya tanpa kehilangan identitas filosofisnya.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-048.jpg"
   },
@@ -583,7 +583,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "200 x 100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Supriati Sinaga.jpg",
-    "tags": "@ supriati_sinaga",
+    "tags": "supriati_sinaga",
     "description": "Karya batik ini terinspirasi dari ornamen Gorga Batak Toba sebagai simbol warisan budaya yang tetap hidup hingga saat ini. Motif rumah adat dan ragam hias gorga menggambarkan hubungan antara tradisi, identitas, dan kehidupan masyarakat Batak yang terus berkembang dari generasi ke generasi.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-049.jpg"
   },
@@ -619,7 +619,7 @@
     "medium": "Akrilik",
     "dimensions": "100 x 70cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Muhammad Adib Alfaruq.jpeg",
-    "tags": "@ muhammad_adib03",
+    "tags": "muhammad_adib03",
     "description": "Di balik rimbunnya hutan Parahyangan dan keteguhan prinsip Pikukuh, tersimpan sebuah kesesuaian yang tak lekang oleh waktu. Lukisan ini merupakan sebuah narasi visual yang menangkap kehidupan masyarakat Baduy, di mana keberadaan manusia bukanlah penakluk alam, melainkan bagian dari harmoni itu sendiri. Melalui sapuan warna yang membumi, Warisan Budaya Negeri menggambarkan momen sakral transfer pengetahuan antar generasi. Di atas lincahnya jemari yang memetik kecapi dan hembusan napas pada lubang suling, terdapat telinga-telinga muda yang menyimak dengan khidmat. Ini bukan sekadar pertunjukan musik, ini adalah cara tradisi bernapas. Penggunaan elemen bambu, bebatuan kali, dan arsitektur rumah panggung dalam karya ini menegaskan kearifan lokal yang mengajarkan kita bahwa kekayaan sejati terletak pada kesederhanaan. Karya ini mengajak kita untuk merenung di tengah bisingnya modernisasi, sejauh mana kita masih bersedia duduk diam dan mendengarkan suara warisan leluhur yang berbisik lewat angin dan dawai tradisi?",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-052.jpg"
   },
@@ -655,7 +655,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "40x60",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Alfia Rahma.jpg",
-    "tags": "@pipiuvv_",
+    "tags": "pipiuvv_",
     "description": "Tari Piring merupakan salah satu tarian tradisional khas Minangkabau, Sumatera Barat, yang melambangkan rasa syukur, kegembiraan, serta semangat kebersamaan dalam kehidupan masyarakat. Gerakan yang dinamis dengan piring di kedua tangan mencerminkan kelincahan, keharmonisan, dan kekayaan budaya Nusantara yang diwariskan dari generasi ke generasi. Karya ini menampilkan sosok penari Tari Piring dengan balutan busana adat bernuansa hitam, emas, dan merah yang identik dengan budaya Minangkabau. Latar rumah gadang serta suasana hangat tradisional memperkuat identitas budaya daerah dan menghadirkan nuansa khas Indonesia yang kaya akan seni dan tradisi. Sapuan warna emas pada latar juga memberikan kesan elegan sekaligus mempertegas gerakan penari yang anggun dan penuh energi. Melalui visualisasi ini, karya diharapkan mampu memperkenalkan sekaligus mengingatkan kembali akan pentingnya melestarikan budaya Nusantara di tengah perkembangan zaman. Tari Piring bukan hanya sebuah pertunjukan seni, tetapi juga simbol semangat, keindahan, dan kebanggaan terhadap warisan budaya Indonesia.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-055.jpg"
   },
@@ -667,7 +667,7 @@
     "medium": "Kain Mori",
     "dimensions": "200 x 100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Sintiya Indriyani.JPG",
-    "tags": "@_sintiya1229",
+    "tags": "_sintiya1229",
     "description": "Bisik Serumpun menghadirkan representasi budaya Melayu melalui figur manusia yang menjadi pusat perhatian dalam komposisi karya, dipadukan dengan ragam hias tumbuhan dan elemen dekoratif yang mengalir di sepanjang kain. Sosok manusia dalam karya ini melambangkan identitas, kehidupan, serta keberadaan masyarakat Melayu yang menyatu dengan nilai tradisi dan alam sekitarnya. Dominasi warna hijau menghadirkan makna kesuburan dan keharmonisan, sementara sentuhan kuning merepresentasikan kemuliaan serta kehangatan yang lekat dengan budaya Melayu. Jalinan motif dan figur menciptakan kesan seperti bisikan lembut dari warisan serumpun sebuah pengingat akan budaya yang hidup, diwariskan, dan terus dijaga melalui seni.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-056.jpg"
   },
@@ -679,7 +679,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "A3",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Syahdika Alakbar_.jpg",
-    "tags": "@astersyah",
+    "tags": "astersyah",
     "description": "Kebanyakan karya seni yang menggambarkan suatu pertunjukan seni Nusantara hanya memandang hasil akhirnya saja, sementara kita semua tau bahwa pertunjukan itu tidak akan terlaksana dengan baik tanpa adanya tim di belakang layar. Karya komik digital ini mengambil inspirasi dari pihak tim produksi pementasan, menceritakan tentang proses belakang layer dari penampilan penampilan kebudayaan. Kisahnya mengambil sudut pandang vira, ketua managemen tim produksi yang akan membawa kita pada seluk beluk pembuatan pertunjukan seni, dibantu dengan teman temannya ia akan memastikan pertunjukan seni berakhir sukses.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-057.jpg"
   },
@@ -691,7 +691,7 @@
     "medium": "acrylic on kanvas",
     "dimensions": "60 x 80 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Nazwah Nur hafizah.jpg",
-    "tags": "@naznh__",
+    "tags": "naznh__",
     "description": "Anoman Obong, lukisan ini bersumber dari kisah Ramayana, ketika Hanoman ditangkap oleh Rahwana di Alengka Pura dan ekornya dibakar. Alih-alih terbakar, Hanoman justru memanfaatkan api itu untuk membakar istana Rahwana, memperlihatkan kesaktiannya dan kesetiaannya kepada Rama. Ia dipandang sebagai perwujudan jiwa luhur yang setia serta berani membela dharma (kebenaran), meskipun harus menghadapi rintangan yang menyala. Dalam budaya Bali, api berfungsi sebagai pembersih; di sini api melambangkan purifikasi atau penyucian dari pengaruh negatif. Api yang ditendang menggambarkan rintangan, bahaya, atau hawa nafsu, dan sikap Hanoman yang menendang api menunjukkan keberanian tanpa batas serta kekuatan rohani yang mampu menaklukkan nafsu jahat.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-058.jpg"
   },
@@ -871,7 +871,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "200x100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Suci Rahmadani Br Padang.jpg",
-    "tags": "@scrhmdn1026",
+    "tags": "scrhmdn1026",
     "description": "Jejak yang Mekar menggambarkan budaya Nusantara yang terus hidup dan berkembang sepanjang waktu. Bentuk floral pada karya menjadi simbol kehormatan, keindahan dan harapan budaya tetap tumbuh. Motif yang menyerupai gelombang merepresentasikan perjalanan zaman, sementara warna merah menghadirkan semangat dan keberanian. Nuansa gelap pada karya melambangkan perjalanan panjang dan tantangan yang telah dilalui budaya Nusantara hingga tetap bertahan sampai saat ini.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-073.jpg"
   },
@@ -883,7 +883,7 @@
     "medium": "oil on kanvas",
     "dimensions": "60 x 80",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Aldon Ambarita_.jpg",
-    "tags": "@aldn_ambrt",
+    "tags": "aldn_ambrt",
     "description": "Sordam sebagai suara hati dan kenangan akan kampung halaman. Alunan sordam dalam karya ini tidak hanya menjadi bunyi musik, tetapi juga menjadi bahasa rindu yang menghangatkan jiwa. Ekspresi tenang dari sosok oppung (kakek) dalam lukisan memperlihatkan bagaimana nada-nada sederhana mampu membawa ingatan pada masa lalu, pada keluarga, tanah kelahiran, dan kehidupan yang penuh kesederhanaan. Warna-warna hangat yang mendominasi karya memperkuat suasana haru, damai, dan akrab, seolah penikmat karya ikut mendengar desir lembut suara sordam di tengah sunyinya malam kampung.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-074.jpg"
   },
@@ -895,7 +895,7 @@
     "medium": "Kain Mori",
     "dimensions": "200 x 100 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Nazwa Dea Salsabillah.jpg",
-    "tags": "@nzwaharahap_",
+    "tags": "nzwaharahap_",
     "description": "Bunga dalam Arus menghadirkan perpaduan latar biru bertekstur yang menyerupai aliran air atau langit dengan rangkaian motif bunga merah yang tumbuh dan mengalir di atas permukaan kain. Komposisi bunga yang tersebar serta aksen gelap di sisi kanan menciptakan keseimbangan visual sekaligus mempertegas arah gerak dalam karya. Motif floral menjadi simbol kehidupan, keindahan, dan keteguhan yang tetap berkembang mengikuti arus waktu dan perubahan. Perpaduan warna biru dan merah menghadirkan suasana tenang namun tetap hidup, mencerminkan harmoni antara kelembutan dan kekuatan dalam satu ruang visual.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-075.jpg"
   },
@@ -907,7 +907,7 @@
     "medium": "Kain Mori",
     "dimensions": "100 x 200 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Regina Tri Utami.jpg",
-    "tags": "@ reginatriutamii",
+    "tags": "reginatriutamii",
     "description": "Karya ini menghadirkan perpaduan motif tradisional Batak dengan dominasi warna merah yang melambangkan keberanian, kekuatan, dan semangat kehidupan. Ornamen geometris berbentuk segitiga yang terinspirasi dari Rumah Bolon menjadi elemen utama dalam komposisi visual, merepresentasikan identitas budaya serta nilai kebersamaan masyarakat Batak. Motif ornamen di sisi kain memperkuat kesan etnik dan tradisional, sementara susunan pola yang berulang menciptakan harmoni visual yang elegan. Melalui karya ini, seniman berupaya mengangkat kembali kekayaan ornamen Nusantara ke dalam medium tekstil modern tanpa menghilangkan akar budayanya.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-076.jpg"
   },
@@ -919,7 +919,7 @@
     "medium": "ukiran Kayu",
     "dimensions": "100 x 25 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Putra sitorus.jpg",
-    "tags": "@putra_sitorus011",
+    "tags": "putra_sitorus011",
     "description": "Gorga Singa-singa pada karya tersebut menampilkan ekspresi yang kuat, tegas, dan berwibawa. Bentuk garis-garis lengkung yang tajam serta susunan motif yang simetris memberikan kesan gagah dan penuh kekuatan. Bagian wajah pada ornamen memperlihatkan karakter seperti penjaga yang sedang mengawasi, sehingga memunculkan nuansa mistis dan sakral khas budaya Batak. Perpaduan warna hitam, merah, dan putih juga memperkuat ekspresi gorga. Warna hitam memberi kesan kokoh dan misterius, merah menunjukkan keberanian dan semangat, sedangkan putih melambangkan kesucian. Keseluruhan ekspresi gorga ini mencerminkan simbol perlindungan, kekuatan spiritual, serta kewibawaan dalam kehidupan masyarakat Batak Toba.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-077.jpg"
   },
@@ -931,7 +931,7 @@
     "medium": "Akrilik",
     "dimensions": "60x80 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Adinda putri Eryan.jpg",
-    "tags": "@dndaerynn_",
+    "tags": "dndaerynn_",
     "description": "Karya ini menggambarkan Rama dan Shinta sebagai simbol kesetiaan, keharmonisan, dan kekuatan cinta dalam budaya pewayangan. Dominasi warna emas pada busana dan mahkota menghadirkan kesan agung serta sakral, sementara cahaya di sekeliling tokoh mempertegas aura kemuliaan dan kedekatan batin di antara keduanya. Latar gelap dipilih untuk menonjolkan ekspresi, gerak tangan, dan detail ornamen tradisional yang terinspirasi dari motif batik Nusantara. Melalui karya ini, disampaikan pesan tentang cinta sejati yang dibangun melalui kesetiaan, pengorbanan, dan kebersamaan dalam menghadapi perjalanan hidup.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-078.jpg"
   },
@@ -943,7 +943,7 @@
     "medium": "Akrilik",
     "dimensions": "80x80 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Muhammad Dzaky.jpg",
-    "tags": "@mdzky_11",
+    "tags": "mdzky_11",
     "description": "Lukisan ini menggambarkan seorang perempuan Jawa yang anggun sedang membentangkan kain batik sebagai simbol keindahan budaya Nusantara. Busana batik bermotif klasik serta latar ornamen dekoratif bernuansa emas dan hijau memperkuat kesan tradisional dan elegan. Ekspresi lembut pada wajah objek menunjukkan ketenangan, kelembutan, dan kebanggaan terhadap warisan budaya Indonesia. Kain batik yang mendominasi bagian bawah lukisan menjadi pusat perhatian sekaligus melambangkan kekayaan seni tradisional yang diwariskan turun-temurun.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-079.jpg"
   },
@@ -955,7 +955,7 @@
     "medium": "Akrilik",
     "dimensions": "80 x 60 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Syaiful Akhyar.jpg",
-    "tags": "@syaifull_akhyr",
+    "tags": "syaifull_akhyr",
     "description": "Lukisan ini menampilkan objek tunggal berupa figur Semar, salah satu tokoh Punokawan dalam pewayangan Jawa, yang digambarkan dalam perspektif profil. Karakteristik khas Semar dieksplorasi secara kuat melalui bentuk wajah yang bulat, mata yang lebar, serta bentuk bibir tebal dan memanjang ke depan (ndower) berwarna merah menyala yang menjadi vocal point utama figur.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-080.jpg"
   },
@@ -967,7 +967,7 @@
     "medium": "Oil on linen",
     "dimensions": "80 x 80 cm",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/VICKY FINANDA_.jpg",
-    "tags": "@Vickyf_4.20",
+    "tags": "Vickyf_4.20",
     "description": "Karya ini menampilkan figur seorang tokoh Jawa yang dikelilingi dua wayang dengan ekspresi dramatis dan penuh tekanan. Lukisan ini menggambarkan bagaimana manusia sering kali berada di tengah tuntutan budaya, tradisi, serta suara-suara sosial yang terus mengendalikan arah hidupnya. Wayang dipilih sebagai simbol identitas budaya Jawa yang kuat, sementara ekspresi marah pada tokoh utama menjadi representasi konflik batin antara menjaga tradisi dan menghadapi perubahan zaman. Penggunaan warna cokelat keemasan menghadirkan nuansa klasik dan sakral yang identik dengan budaya Jawa, sedangkan bentuk figur yang cenderung deformasi memberi kesan emosional dan ekspresif. Melalui karya ini, seniman ingin menunjukkan bahwa budaya Jawa bukan hanya warisan visual, tetapi juga ruang penuh tekanan, kebanggaan, dan pertanyaan tentang identitas manusia modern.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-081.jpg"
   },
@@ -979,7 +979,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "A2",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Ary Chandra Pratama.jpg",
-    "tags": "@arrchnd",
+    "tags": "arrchnd",
     "description": "Karya ilustrasi digital ini menampilkan suasana khas Kota Medan melalui perpaduan ikon kota, transportasi jalanan, dan budaya urban yang dinamis. Becak motor merah dan angkutan kota kuning menjadi fokus utama sebagai simbol transportasi legendaris yang sangat melekat dengan kehidupan masyarakat Medan. Latar belakang menghadirkan bangunan ikonik seperti Masjid Raya Al-Mashun dan Menara Air Tirtanadi yang menjadi identitas visual Kota Medan. Gaya ilustrasi kartun modern dengan garis tegas dan warna kontras menciptakan kesan energik, kreatif, dan penuh karakter khas anak muda perkotaan. Melalui karya ini, seniman ingin menggambarkan semangat Kota Medan yang ramai, berani, dan penuh keberagaman budaya. Ilustrasi ini juga menjadi bentuk apresiasi terhadap kehidupan jalanan serta ikon-ikon lokal yang tetap bertahan di tengah perkembangan kota modern.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-082.jpg"
   },
@@ -991,7 +991,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "42 x 59",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Azzuhratul Khalisa Hrp.jpg",
-    "tags": "@azkhlis_",
+    "tags": "azkhlis_",
     "description": "Karya ini menampilkan sosok seorang perempuan lanjut usia yang sedang mencanting batik dengan penuh ketekunan dan ketelitian. Cahaya yang menerangi objek utama memberikan kesan hangat sekaligus menonjolkan fokus dan kesabaran dalam proses membatik. Garis-garis motif batik yang mengalir di atas kain menggambarkan keindahan budaya yang lahir dari proses panjang dan penuh makna. Makna yang terkandung dalam karya ini adalah penghormatan terhadap warisan budaya dan perjuangan para pembatik tradisional dalam menjaga identitas bangsa. Sosok perempuan tua melambangkan pengalaman, kesabaran, dan dedikasi yang diwariskan dari generasi ke generasi. Aktivitas mencanting bukan hanya sekadar membuat motif, tetapi juga menjadi simbol ketelitian, kerja keras, dan cinta terhadap seni tradisional. Suasana gelap di sekitar objek memberikan penekanan bahwa di tengah perkembangan zaman modern, budaya membatik tetap menjadi cahaya yang harus dijaga keberadaannya. Karya ini mengajak penikmat untuk menghargai proses, tradisi, dan nilai kehidupan yang tersimpan dalam setiap goresan canting pada kain batik.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-083.jpg"
   },
@@ -1003,7 +1003,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "40x60",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Devi Fahdilla.jpg",
-    "tags": "@dvii.f90_",
+    "tags": "dvii.f90_",
     "description": "Karya ini adalah sebuah reinterpretasi visual terhadap seni pertunjukan Jaran Kepang (Kuda Lumping) yang berasal dari pulau Jawa khususnya daerah Ponorogo Jawa Timur, yang dibingkai dalam estetika dark fantasy. Alih-alih menampilkan pertunjukan budaya yang konvensional, karya ini menelusuri fenomena trance (kesurupan) sebagai sebuah ruang liminal sebuah batasan tipis antara realitas fisik dan dimensi spiritual. Di pusat komposisi, sosok penari tidak digambarkan sebagai objek yang dirasuki secara pasif, melainkan sebagai entitas yang memimpin. Ia adalah penjinak energi, yang menguasai cemeti (pecut) sebagai simbol otoritas atas kekuatan liar yang membangkitkan Kuda Kepang. Rona kulit supernatural dan ekspresi dinginnya mengikis batasan antara manusia dan roh, menunjukkan penyatuan yang intens. Secara visual, ruang fisik ditiadakan dan diganti oleh pusaran aura berwarna kontras (ungu dan hijau neon) yang meledak dari latar gelap. Permainan cahaya ini menangkap momen puncak dari ritual kesurupan, sebuah visualisasi dari panggung batin sang penari. Karya ini mencoba menjembatani mistisisme masa lalu dengan bahasa visual kontemporer, menunjukkan bahwa tradisi memiliki kekuatan estetika yang terus berevolusi.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-084.jpg"
   },
@@ -1015,7 +1015,7 @@
     "medium": "Ilustrasi Digital",
     "dimensions": "40x60",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Gustira Widjayanti.jpg",
-    "tags": "@_gustiraaa",
+    "tags": "_gustiraaa",
     "description": "Liwetan merupakan tradisi dan juga simbol hubungan sosial yang menyatukan banyak individu dalam satu ruang dan rasa yang sama. Tradisi yang berkembang di daerah Jawa Tengah dan Jawa Barat ini terlihat menekankan makna kebersamaan, kesederhanaan, rasa syukur, serta rasa kekeluargaan yang kuat. Karya ini menampilkan suasana makan bersama yang disajikan memanjang di atas daun pisang dan disantap bersama-sama, sebagaimana liwetan sendiri berasal dari kata liwet yang berarti nasi gurih yang dimasak dengan santan dan rempah-rempah. Visualisasi hamparan makanan yang memanjang di atas daun pisang menjadi simbol persatuan, di mana setiap orang duduk sejajar tanpa memandang usia. Dengan merepresentasikan tradisi ini dan menjadikannya suatu karya, diharapkan dapat mengingatkan bahwa kehangatan dalam tradisi liwetan mampu menciptakan interaksi, canda, serta rasa saling memiliki antar sesama yang senantiasa lahir dari momen-momen sederhana yang dilakukan bersama.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-085.jpg"
   },
@@ -1027,7 +1027,7 @@
     "medium": "Batik tulis di atas kain mori",
     "dimensions": "1 x 1,5",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Yesi Okta Hutagalung.jpg",
-    "tags": "@ yesihtg03",
+    "tags": "yesihtg03",
     "description": "Batik ini menampilkan keagungan budaya Batak Toba dengan kelembutan teknik membatik tradisional Nusantara. Berlatar warna hitam yang pekat dan elegan, kain ini menampilkan Gorga Batak ikonik sebagai ornamen pusat yang dikelilingi oleh sepasang Boraspati (cicak) di sisi atas dan bawah. Dihapit oleh stilasi ragam hias vertikal yang tegas berwarna merah menyala dan putih, karya ini tidak hanya memancarkan kekuatan estetika visual, tetapi juga membawa simbol perlindungan, kebijaksanaan, dan kelestarian nilai-nilai luhur leluhur di era modern.",
     "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-086.jpg"
   },
