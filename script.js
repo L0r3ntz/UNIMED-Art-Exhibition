@@ -199,15 +199,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Auto-hide preloader after 8 seconds as fallback
-setTimeout(() => {
-    const preloader = document.getElementById('preloader');
-    if (preloader && preloader.style.display !== 'none') {
-        preloader.classList.add('fade-out');
-        setTimeout(() => { preloader.style.display = 'none'; }, 800);
-    }
-}, 8000);
-
 // Initialize
 (async () => {
     await fetchArtworks();
