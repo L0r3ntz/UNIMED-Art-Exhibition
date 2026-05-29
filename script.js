@@ -1,7 +1,7 @@
 // Configuration
 const DATASET_ID = 'l0r3ntz/pameran-lukisan';
 const BASE_URL = 'https://datasets-server.huggingface.co';
-const GH_DATA_URL = 'https://raw.githubusercontent.com/L0r3ntz/UNIMED-Art-Exhibition/main/website-katalog/data.json';
+const GH_DATA_URL = 'https://raw.githubusercontent.com/L0r3ntz/UNIMED-Art-Exhibition/main/data.json';
 
 let allArtworks = [];
 
