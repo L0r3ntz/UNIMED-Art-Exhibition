@@ -721,6 +721,19 @@ body {
     display: block;
 }
 
+.modal-image-placeholder {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    opacity: 0.4;
+    background: var(--surface);
+}
+
 .modal-details {
     padding: 2rem;
 }

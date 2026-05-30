@@ -1033,14 +1033,14 @@
   },
   {
     "id": "PAM-087",
-    "title": "(need data)",
+    "title": "TIDAK MELAMPIRKAN KARYA",
     "artist": "Fitria Ariska Putri",
-    "year": "2026",
-    "medium": "",
-    "dimensions": "",
+    "year": "-",
+    "medium": "-",
+    "dimensions": "-",
     "artist_photo_url": "https://huggingface.co/l0r3ntz/artist-photos/resolve/main/artists/Fitria Ariska Putri.jpg",
     "tags": "",
-    "description": "",
-    "image_url": "https://huggingface.co/l0r3ntz/artwork-images/resolve/main/PAM-087.jpg"
+    "description": "-",
+    "image_url": ""
   }
 ]

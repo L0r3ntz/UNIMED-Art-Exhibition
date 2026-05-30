@@ -53,7 +53,7 @@ function renderArtworks(artworks) {
         card.onclick = () => showModal(art);
         const imgHtml = art.image_url
             ? `<img src="${art.image_url}" alt="${art.title}" loading="lazy">`
-            : `<div class="card-image-placeholder">${art.title.charAt(0)}</div>`;
+            : `<div class="card-image-placeholder">TIDAK MELAMPIRKAN KARYA</div>`;
         
         const artistPhotoHtml = art.artist_photo_url
             ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="artist-photo-small" onclick="event.stopPropagation(); showArtistPhoto('${art.artist_photo_url}', '${art.artist.replace(/'/g, "\\'")}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
@@ -101,7 +101,7 @@ function updateStats(artworks = allArtworks) {
 function showModal(art) {
     const modal = document.getElementById('artworkModal');
     const body = document.getElementById('modalBody');
-    const imgHtml = art.image_url ? `<img src="${art.image_url}" alt="${art.title}" class="modal-image">` : '';
+    const imgHtml = art.image_url ? `<img src="${art.image_url}" alt="${art.title}" class="modal-image">` : `<div class="modal-image-placeholder">TIDAK MELAMPIRKAN KARYA</div>`;
     
     const artistPhotoHtml = art.artist_photo_url
         ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="modal-artist-photo" onclick="event.stopPropagation(); showArtistPhoto('${art.artist_photo_url}', '${art.artist.replace(/'/g, "\\'")}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
