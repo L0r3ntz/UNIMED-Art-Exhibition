@@ -11,8 +11,16 @@ window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
 
-// Fetch data — try HF Datasets Server first, fallback to GitHub raw
+// Fetch data — try GitHub raw first (always up to date), fallback to HF Datasets Server
 async function fetchArtworks() {
+    try {
+        const response = await fetch(GH_DATA_URL + '?t=' + Date.now());
+        allArtworks = await response.json();
+        if (allArtworks.length > 0) return allArtworks;
+        throw new Error('No data from GitHub');
+    } catch (e) {
+        console.warn('GitHub raw failed, trying HF Datasets Server...', e);
+    }
     try {
         const response = await fetch(`${BASE_URL}/rows?dataset=${DATASET_ID}&config=default&split=train&offset=0&length=100`);
         const data = await response.json();
@@ -21,13 +29,6 @@ async function fetchArtworks() {
             return allArtworks;
         }
         throw new Error('No data from API');
-    } catch (e) { 
-        console.warn('HF Datasets Server failed, trying GitHub raw...', e);
-    }
-    try {
-        const response = await fetch(GH_DATA_URL);
-        allArtworks = await response.json();
-        if (allArtworks.length > 0) return allArtworks;
     } catch (e2) {
         console.error('All data sources failed:', e2);
         document.getElementById('artworkGrid').innerHTML = '<p class="error">Gagal memuat data. Coba refresh halaman.</p>';
