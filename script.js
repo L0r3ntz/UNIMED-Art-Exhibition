@@ -51,9 +51,10 @@ function renderArtworks(artworks) {
         card.className = 'artwork-card';
         card.style.animationDelay = `${i * 0.05}s`;
         card.onclick = () => showModal(art);
+        const placeholderText = (!art.image_url && art.description === '-') ? 'TIDAK MELAMPIRKAN KARYA' : 'FOTO MENYUSUL';
         const imgHtml = art.image_url
             ? `<img src="${art.image_url}" alt="${art.title}" loading="lazy">`
-            : `<div class="card-image-placeholder">TIDAK MELAMPIRKAN KARYA</div>`;
+            : `<div class="card-image-placeholder">${placeholderText}</div>`;
         
         const artistPhotoHtml = art.artist_photo_url
             ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="artist-photo-small" onclick="event.stopPropagation(); showArtistPhoto('${art.artist_photo_url}', '${art.artist.replace(/'/g, "\\'")}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
@@ -101,7 +102,8 @@ function updateStats(artworks = allArtworks) {
 function showModal(art) {
     const modal = document.getElementById('artworkModal');
     const body = document.getElementById('modalBody');
-    const imgHtml = art.image_url ? `<img src="${art.image_url}" alt="${art.title}" class="modal-image">` : `<div class="modal-image-placeholder">TIDAK MELAMPIRKAN KARYA</div>`;
+    const modalPlaceholder = (!art.image_url && art.description === '-') ? 'TIDAK MELAMPIRKAN KARYA' : 'FOTO MENYUSUL';
+    const imgHtml = art.image_url ? `<img src="${art.image_url}" alt="${art.title}" class="modal-image">` : `<div class="modal-image-placeholder">${modalPlaceholder}</div>`;
     
     const artistPhotoHtml = art.artist_photo_url
         ? `<img src="${art.artist_photo_url}" alt="${art.artist}" class="modal-artist-photo" onclick="event.stopPropagation(); showArtistPhoto('${art.artist_photo_url}', '${art.artist.replace(/'/g, "\\'")}')" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
