@@ -209,3 +209,48 @@ document.querySelectorAll('.nav-link').forEach(link => {
     renderArtworks(allArtworks);
     updateStats();
 })();
+
+// --- Preloader Carousel ---
+(function() {
+    const track = document.querySelector('.carousel-track');
+    if (!track) return;
+    const slides = track.querySelectorAll('.carousel-slide');
+    const totalSlides = slides.length;
+    if (totalSlides === 0) return;
+    const prevBtn = document.querySelector('.carousel-prev');
+    const nextBtn = document.querySelector('.carousel-next');
+    const dots = document.querySelectorAll('.dot');
+    let currentIndex = 0;
+
+    function goToSlide(index) {
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        currentIndex = index;
+        track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === currentIndex);
+        });
+    }
+
+    if (prevBtn) {
+        prevBtn.addEventListener('click', function() {
+            goToSlide(currentIndex - 1);
+        });
+    }
+    if (nextBtn) {
+        nextBtn.addEventListener('click', function() {
+            goToSlide(currentIndex + 1);
+        });
+    }
+    dots.forEach(function(dot) {
+        dot.addEventListener('click', function() {
+            var idx = parseInt(this.getAttribute('data-slide'));
+            if (!isNaN(idx)) goToSlide(idx);
+        });
+    });
+    document.addEventListener('keydown', function(e) {
+        if (document.getElementById('preloader').style.display === 'none') return;
+        if (e.key === 'ArrowLeft') { goToSlide(currentIndex - 1); }
+        if (e.key === 'ArrowRight') { goToSlide(currentIndex + 1); }
+    });
+})();
